@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <style class="forFont"></style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="left">
+            <img id="cardImg">
+            <div class="colors">
+                <div class="color primary"></div>
+                <div class="color grey"></div>
+                <div class="color invert"></div>
+            </div>
+            <!-- <div class="loader ">
+               
+              </div> -->
+        </div>
+        <div class="right">
+            <h4 class="subtitle">WELCOME HOME</h4>
+            <h1 class="title">The future of <br> well designed <br>interfaces</h1>
+            <div class="membership">
+                <a href="" class="start randomBorderRadius">Get Started</a>
+                <a href="" class="signIn">Sign in</a>
+            </div>
+        </div>
+        <div class="generate">
+            <button class="randomBorderRadius">Generate New Design</button>
+            <p>Image Color Type: <span id="colorType"></span> <br> <br>
+                Image Color Name: <span id="colorName"></span> <br> <br>
+                Font Name: <span id="fontName"></span>
+            </p>
+            <p>If the background is a dark color, <br> this text will be white, <br> and if it is a light color, <br>
+                this text will be black.</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="ntc.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

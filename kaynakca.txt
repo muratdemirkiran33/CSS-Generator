@@ -1,0 +1,7 @@
+Renklerin isimleri:  https://chir.ag/projects/ntc/ veya http://www.thecolorapi.com/id?format=json&hex=ffffff
+Arkaplan resimleri:  https://api.unsplash.com
+Fontlar           :  https://fonts.google.com/
+Veri Çekme        :  https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js
+HEX to RGB        :  https://stackoverflow.com/questions/35969656/how-can-i-generate-the-opposite-color-according-to-current-color/35970186
+HSL to RGB        :  https://www.30secondsofcode.org/js/s/hsl-to-rgb
+Light or Dark     :  https://stackoverflow.com/questions/3942878/how-to-decide-font-color-in-white-or-black-depending-on-background-color
